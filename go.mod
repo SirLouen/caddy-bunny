@@ -1,4 +1,4 @@
-module github.com/caddy-dns/bunny
+module github.com/SirLouen/caddy-bunny
 
 go 1.21
 
@@ -6,7 +6,7 @@ toolchain go1.22.0
 
 require (
 	github.com/caddyserver/caddy/v2 v2.7.6
-	github.com/libdns/bunny v0.1.0
+	github.com/SirLouen/libdns-bunny 1.0.0
 )
 
 require (
