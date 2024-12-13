@@ -3,7 +3,7 @@ package bunny
 import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/libdns/bunny"
+	"github.com/SirLouen/libdns-bunny"
 )
 
 // Provider lets Caddy read and manipulate DNS records hosted by this DNS provider.
