@@ -3,7 +3,7 @@ package bunny
 import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/libdns/bunny"
+	"github.com/SirLouen/libdns-bunny"
 	"github.com/libdns/libdns"
 	"go.uber.org/zap"
 )
