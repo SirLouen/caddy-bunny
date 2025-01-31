@@ -24,6 +24,7 @@ func (Provider) CaddyModule() caddy.ModuleInfo {
 }
 
 // Provision sets up the module. Implements caddy.Provisioner.
+// Test
 func (p *Provider) Provision(ctx caddy.Context) error {
 	p.Provider.AccessKey = caddy.NewReplacer().ReplaceAll(p.Provider.AccessKey, "")
 
